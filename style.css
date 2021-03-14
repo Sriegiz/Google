@@ -51,28 +51,39 @@ body {
 }
 
 #logo {
-    float:center;
-    padding-top:240px;
+    /* float:center; */
+    /* align-content: center; */
+    /* padding-top:240px; */
     padding-bottom: 20px;
     display: block;
     margin-left:auto;
     margin-right:auto;
+    padding:inherit;
     width:275px;
-    white-space: nowrap;
+    align-content: center;
+    /* white-space: nowrap; */
+}
+
+#center {
+    align-content: center;
+    padding: auto;
+    float: center;
+    /* width: 592px; */
 }
 
 .box {
+    padding-top: 240px;
     float:center;
-    width: 580px;
-    margin-right: auto;
-    margin-left: auto;
+    width: 592px;
+    margin:auto;
+    align-content: center;
 }
 
 #search {
-
+    /* Reikia padaryt kad mažėtų iki 400px width */
     border: 1px solid rgb(228, 228, 228);
     height: 43px;
-    width: 580px;
+    width: 590px;
     border-radius: 30px;
 }
 
